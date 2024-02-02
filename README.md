@@ -1,10 +1,10 @@
-## Clock
+# Clock
 
-An app for displaying the time with milliseconds.
+An app for displaying the time with milliseconds
 
 ## Table of Contents
 
-- [Development](#development)
+- 🖥️ [Development](#development)
 
 ## Development
 
