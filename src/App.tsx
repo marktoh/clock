@@ -1,5 +1,4 @@
 import Clock from "./components/clock";
-import ToDoList from "./components/to-do-list";
 import ThemeBar from "./components/theme-bar";
 
 import store from "../store";
@@ -11,9 +10,6 @@ function App() {
       <ThemeBar buttons={themeButtons} />
       <section className="max-w-96 mx-auto">
         <Clock />
-      </section>
-      <section>
-        <ToDoList tasks={tasks} />
       </section>
     </main>
   );

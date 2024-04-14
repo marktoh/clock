@@ -16,7 +16,7 @@ function Clock() {
   const [hours, minutes, seconds, milliseconds] = useTime();
   return (
     <div>
-      <h2 className="text-center text-7xl md:text-9xl text-slate-700 text-opacity-25 dark:text-gray-500">
+      <h2 className="text-center text-7xl md:text-8xl text-slate-700 text-opacity-25 dark:text-gray-500">
         {getTimeOfDay(hours)}
       </h2>
       <div className="my-12 flex items-end justify-center">
