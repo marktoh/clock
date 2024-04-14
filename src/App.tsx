@@ -4,7 +4,7 @@ import ThemeBar from "./components/theme-bar";
 import store from "../store";
 
 function App() {
-  const { themeButtons, tasks } = store;
+  const { themeButtons } = store;
   return (
     <main className="min-h-screen dark:bg-gray-900">
       <ThemeBar buttons={themeButtons} />
